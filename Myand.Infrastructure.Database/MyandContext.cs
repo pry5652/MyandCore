@@ -54,6 +54,7 @@ namespace Myand.Infrastructure.Database
 				
 				
 			});
+			base.OnModelCreating(modelBuilder);
 		}
 		public override int SaveChanges()
 		{
