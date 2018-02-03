@@ -14,4 +14,6 @@ etc
 2. Change appsettings.json => 	"ConnectionStrings": {
 		"MyAndConnection": "Data Source=yourDataSource;Initial Catalog=yourCatalog;Integrated Security=False;User ID=yourUser;Password=yourPassword;"
 	},
+3. type Update-Database 
+	=> Tools –> NuGet Package Manager –> Package Manager Console
 3. Run  
