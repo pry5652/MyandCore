@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Myand.Commons\Myand.Commons.csproj" />
+    <ProjectReference Include="..\Myand.Infrastructure.Database\Myand.Infrastructure.Database.csproj" />
+    <ProjectReference Include="..\Myand.Service\Myand.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  myand.ui.webapplication1:
+    image: myand.ui.webapplication1
+    build:
+      context: .
+      dockerfile: Myand.UI.WebApplication1/Dockerfile
+
+  myand.api:
+    image: myand.api
+    build:
+      context: .
+      dockerfile: Myand.Api/Dockerfile
+
