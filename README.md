@@ -1,6 +1,11 @@
 # Myand
 Sample Domain Driven Design with all best practices design and architetural patterns as DDD, CrossCutting IoC, SOLID, etc
 
+# Require 
+1. .NET Core 2.0
+2. Docker / note* : If not already installed, please remove docker file (docker-compose) in Root of Solution 
+3. Visual Studio 
+
 # Feateure 
 1. Shared Functions (Commons) include (Domain, Repository, UnitOfWork, AppService (Async / Non Async), Map, etc) 
 2. .NET Core 2.0
